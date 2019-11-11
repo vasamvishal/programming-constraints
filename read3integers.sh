@@ -7,6 +7,10 @@
 result=$(($a*$b+$c))
 echo "result of a+b*c " $result
 
-result=$(($a+$b*$C))
+result=$(($a+$b*$c))
 echo "result of a*b+c " $result
+
+result=$(($c+$a/$b))
+echo "result of c+a/b " $result
+
 
