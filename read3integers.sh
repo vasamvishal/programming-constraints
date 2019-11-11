@@ -27,6 +27,8 @@ dictionaryy[counter4]=$fourthoperationresult
 
 echo  ${dictionaryy[@]} value ${!dictionaryy[@]}
 ascendingorder=$(printf "%s\n" ${dictionaryy[@]} | sort -nr )
+descendingorder=$(printf "%s\n" ${dictionaryy[@]} | sort -n )
+
 
 
 
