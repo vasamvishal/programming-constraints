@@ -1,5 +1,8 @@
 #!/bin/bash -x
 
-a= read -p "Enter first number: a "
-b= read -p "Enter second number: b " 
-c= read -p "Enter third number: c " 
+ read -p "Enter first number:" a
+ read -p "Enter second number:" b  
+ read -p "Enter third number:" c 
+
+result=$(($a*$b+$c))
+echo "result of a*b+c " $result
